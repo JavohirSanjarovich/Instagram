@@ -1,0 +1,147 @@
+.modal1:active,.modal2:active,.modal3:active,.modal4:active,.modal5:active,.modal6:active,.modal7:active,.modal8:active,.modal9:active{
+    background-color: rgb(233, 230, 230);
+}
+.setting_btn1:hover,.setting_btn2:hover,.setting_btn3:hover,.setting_btn4:hover,.setting_btn5:hover,.setting_btn6:hover,.setting_btn7:hover,.setting_btn8:hover,
+.setting_btn9:hover,.setting_btn10:hover{
+    background-color: rgb(248, 248, 248);
+    border-left: 2px solid rgb(190, 189, 189);
+}
+.setting_btn1:active,.setting_btn2:active,.setting_btn3:active,.setting_btn4:active,.setting_btn5:active,.setting_btn6:active,.setting_btn7:active,.setting_btn8:active
+,.setting_btn9:active,.setting_btn10:active{
+    color:rgb(148, 148, 148);
+}
+.mapTab:hover{
+    background-color: rgb(238, 236, 236);
+}
+.imgOverLay{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color:rgba(112, 111, 111, 0.5);
+    top:0px;
+    opacity:1;
+    transition:all 0.5s;
+    z-index: 1;
+}
+.imgOverLay:hover{
+    opacity: 0;
+}
+.heart:hover,.bubble:hover,.paper:hover,.save:hover{
+    color: gray;
+}
+.chatContainer,.serchForm,.notificationBox{
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.chatContainer::-webkit-scrollbar,.serchForm::-webkit-scrollbar,.notificationBox::-webkit-scrollbar{
+    display: none; 
+}
+
+.serchCard:hover,.navDropDownTab1:hover,.navDropDownTab2:hover,.navDropDownTab3:hover,.navDropDownTab4:hover,.tagUserTab:hover{
+    background-color:  rgb(250, 250, 250);
+}
+ @media (max-width: 1023px) {
+    .searchFromContainer{
+        margin-left: 19% !important;
+        width: 20% !important;
+    }
+    .fileUploadModal{
+        margin: 55px 0 0 10% !important;
+        width:80% !important;
+        height: 90% !important;
+    }
+    .navbarIcons{
+        margin-left: 10% !important;
+    }
+    .mainRightSideBar{
+        display: none !important;
+    }
+    .chatNotification{
+        position: absolute !important;
+        left:75px !important;
+    }
+    .chatRoomContainer,.profileSettingContainer{
+        margin-left: 3% !important;
+    }
+    .userHeaderModal,.myHeaderModal{
+        margin: 220px 0 0 32% !important; 
+    }
+    .postModal{
+        width:80% !important;
+        height: 77% !important;
+        margin: 70px 0 0 10% !important;
+    }
+    .fileInPostModalContainer{
+        width: 80% !important;
+        height: 744px  !important;
+    }
+    .fileInPostModal{
+        width: 100% !important;
+        margin-top: 100px !important;
+        padding-top: 100px !important;
+    }
+    .fileInfileUploadModalContainer{
+        width: 80% !important;
+        height: 744px  !important;
+    }
+    .fileInUploadModal{
+        width: 100% !important;
+        margin-top: 100px !important;
+        padding-top: 100px !important;
+    }
+    .fileInfoInfileUploadModalContainer{
+        width: 40% !important;
+    }
+    .commentInPostModalContainer{
+        height: 520px !important;
+        width: 65% !important;
+    }
+    .buttonInPostModalContainer{
+        margin-left: 6em !important;
+    }
+    
+}  
+@media (max-width: 767px) {
+    .navbarContainer{
+        margin-left: -5% ;
+    }
+    .searchFromContainer{
+        display: none !important;
+    } 
+    .navbarIcons{
+        margin-left: 24% !important;
+    }
+    .chatNotification{
+        position: absolute !important;
+        left:75px !important;
+    }
+    .chatRoomContainer,.profileSettingContainer{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .userHeaderModal,.myHeaderModal{
+        margin: 220px 0 0 26% !important;
+    }
+    .postModal{
+        width:77% !important;
+        height: 50% !important;
+        margin: 200px 0 0 10% !important;
+    }
+    .fileInPostModalContainer{
+        width: 80% !important;
+        height: 500px !important;
+    }
+    .fileInPostModal{
+        width: 100% !important;
+        height: 300px !important;
+        margin-top: 50px !important;
+        padding-top: 50px !important;
+    }
+    .commentInPostModalContainer{
+        height: 250px !important;
+        width: 65% !important;
+    }
+    .buttonInPostModalContainer{
+        margin-left: 4em !important;
+    }
+}
